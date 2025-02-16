@@ -1,5 +1,6 @@
 # NextRound — Video Calling Interview Platform
 
+![NextRound](https://your-logo-url.com/logo.png) <!-- Add your project logo if available -->
 
 ## 🚀 Overview
 
@@ -8,7 +9,7 @@
 ## 🔥 Features
 
 - 🔐 **Authentication** powered by [Clerk](https://clerk.dev/)
-- 📹 **Real-time Video Calling** using WebRTC (if implemented)
+- 📹 **Real-time Video & Audio** powered by [GetStream.io](https://getstream.io/)
 - 🔄 **Database & State Management** using [Convex](https://convex.dev/)
 - 🔔 **Webhook Support** via [Svix](https://www.svix.com/)
 - 🎨 **UI Components** from [shadcn/ui](https://ui.shadcn.com/)
@@ -22,6 +23,7 @@
 | **TypeScript**  | Strongly typed JavaScript        |
 | **Convex**      | Serverless database & backend functions |
 | **Clerk**       | Authentication & user management |
+| **GetStream.io**| Video & Audio streaming API |
 | **Tailwind CSS** | Utility-first styling framework |
 | **shadcn/ui**   | Beautiful, customizable UI components |
 | **Svix**        | Webhook infrastructure for integrations |
@@ -51,7 +53,7 @@ NextRound/
 ### 1️⃣ Prerequisites
 - Node.js v18+
 - NPM or Yarn
-- Clerk & Convex API keys
+- Clerk, Convex & GetStream.io API keys
 - Vercel CLI (optional for deployment)
 
 ### 2️⃣ Installation
@@ -72,6 +74,7 @@ Create a `.env.local` file in the root directory and add the necessary environme
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 NEXT_PUBLIC_CONVEX_URL=your_convex_api_url
+NEXT_PUBLIC_GETSTREAM_API_KEY=your_getstream_api_key
 SVIX_SECRET=your_svix_secret_key
 ```
 
@@ -117,12 +120,9 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 Contributions are welcome! Please follow the guidelines in `CONTRIBUTING.md` (if available).
 
-## 📬 Contact
+## 📬 Contact 
+  - **Author:** [Divyam Sirswal](https://github.com/Divyamsirswal)
+  - **Email:** divyamsirswal361@example.com
 
-- **Author:** [Divyam Sirswal](https://github.com/Divyamsirswal)
-- **Email:** divyamsirswal361@example.com
-
----
-
-Made with ❤️ by [Divyam Sirwal] 🚀
+--- Made with ❤️ by [Divyam Sirwal] 🚀
 
