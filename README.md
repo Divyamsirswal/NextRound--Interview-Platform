@@ -124,5 +124,5 @@ Contributions are welcome! Please follow the guidelines in `CONTRIBUTING.md` (if
   - **Author:** [Divyam Sirswal](https://github.com/Divyamsirswal)
   - **Email:** divyamsirswal361@example.com
 
---- Made with ❤️ by [Divyam Sirwal] 🚀
+--- Made with ❤️ by [Divyam Sirswal] 🚀
 
